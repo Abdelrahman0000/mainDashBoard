@@ -1,0 +1,160 @@
+.brands-page{
+    table{
+        width: 100%;
+    }
+    h1,h2{
+text-align: center;
+margin-bottom: 30px;
+    }
+
+    .brands-table{
+        width: 100%;
+    }
+   td{
+    height: 120px;
+    text-align: center;
+   }
+tr{
+    
+  
+    align-items: center;
+    margin: 10px 0;
+    img{
+        max-width: 100%;
+        max-height: 80px;
+    }
+    button{
+        
+    margin: auto;
+    display: flex;
+    width: 180px;
+    height: 38px;
+    padding: 8px 6px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border: 2px solid var(--default-alert, #DA1E28);
+background: var(--default-alert, #DA1E28);
+    color: var(--default-white, #FFF);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: .5px;
+    a{
+        width: 100%;
+        height: 100%;
+    }
+    }
+   
+}
+
+thead{
+    margin-bottom: 20px;
+}
+.btn-choose{
+    
+    display: flex;
+    width: 100%;
+    button{
+        
+    margin: auto;
+    display: flex;
+    width: 180px;
+    height: 38px;
+    padding: 8px 6px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border: 2px solid var(--default-alert, #13be25);
+background: var(--default-alert, #13be25);
+    color: var(--default-white, #FFF);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: .5px;
+    }
+}
+.image-logo{
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    img{
+        margin: auto;
+        max-width: 130px;
+        max-height: 92px;
+    }
+}
+.select-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 30px 0 60px;
+    label{
+        text-align: center;
+        font-size: 18px;
+    }
+    select{
+        
+    color: #2A63AB;
+    border: 1px solid #2A63AB;
+    font-size: 15px;
+    padding: 10px 20px;
+    height: 60px;
+    width: 220px;
+    }
+}
+p{
+    text-align: center;
+    margin: 20px 0;
+}
+}
+
+
+
+
+
+@media(max-width:768px) {
+
+.brands-page{
+    padding: 15px 5px;
+    th{
+font-size: 13px;
+    }
+    tr{
+        align-items: center;
+        margin: 10px 0;
+        img{
+            max-width: 70px;
+            max-height: 80px;
+        }
+        button{
+            
+        margin: auto;
+        display: flex;
+        width: 70px;
+        height: 38px;
+        padding: 8px 6px;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+        border: 2px solid var(--default-alert, #DA1E28);
+    background: var(--default-alert, #DA1E28);
+        color: var(--default-white, #FFF);
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: .5px;
+        }
+       
+    }
+
+}
+
+}
+
+

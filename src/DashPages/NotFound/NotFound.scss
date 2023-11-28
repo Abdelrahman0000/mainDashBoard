@@ -1,0 +1,126 @@
+.notfound{
+background-color: #FFF;
+text-align: center;
+padding: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 15px;
+flex-direction: column;
+h2{
+    color: var(--cool-gray-90, #21272A);
+text-align: center;
+
+/* Heading/1 */
+font-family: Roboto;
+font-size: 54px;
+font-style: normal;
+font-weight: 700;
+line-height: 110%; /* 59.4px */
+}
+h3{
+    color: var(--cool-gray-90, #21272A);
+text-align: center;
+
+/* Heading/2 */
+font-family: Roboto;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: 110%; /* 46.2px */
+}
+h5{
+    color: var(--cool-gray-90, #21272A);
+text-align: center;
+
+/* Body/L */
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 25.2px */
+}
+
+button{
+    display: flex;
+height: 56px;
+padding: 16px;
+justify-content: center;
+align-items: center;
+border: 2px solid var(--primary-60, #0F62FE);
+
+color: var(--primary-60, #0F62FE);
+
+/* Button/L */
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 100%; /* 20px */
+letter-spacing: 0.5px;
+}
+.image{
+    width: 352px;
+    img{
+        width: 100%;
+    }
+}
+
+}
+
+
+
+@media(max-width:1189px){
+    .notfound{
+h2{
+    font-size: 46px;
+}
+h3{
+    font-size: 38px;
+}
+p{
+    font-size: 16px;
+}
+    }
+
+}
+
+
+
+@media(max-width:768px){
+.notfound{
+    padding: 20px;
+    button{
+        
+    display: flex;
+    height: 38px;
+    padding: 9px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--primary-60, #0F62FE);
+    color: var(--primary-60, #0F62FE);
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: .5px;
+
+    }
+    h2{
+        font-size: 25px;
+        line-height: 100%;
+    }
+    h3{
+        font-size: 20px;
+        line-height: 100%;
+    }
+    p{
+        font-size: 13px;
+        line-height: 100%;
+    }
+    .image{
+        width: 175px;
+    }
+}
+    }

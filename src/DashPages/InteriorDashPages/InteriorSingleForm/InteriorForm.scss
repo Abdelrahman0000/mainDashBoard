@@ -1,0 +1,23 @@
+.home {
+    overflow-x: hidden;
+    .single-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    img{
+        width: 200px;
+        max-height: 300px;
+        margin-top: 20px;
+
+    }
+    span{
+        color: #2A63AB;
+    }
+    .h3{
+        font-size: 18px;
+        
+    }
+    }
+}

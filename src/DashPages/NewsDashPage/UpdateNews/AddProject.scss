@@ -1,0 +1,53 @@
+.add-proj{
+    .select-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 49%;
+        margin: 30px 0 60px;
+        label{
+            text-align: center;
+            font-size: 18px;
+        }
+        select{
+            
+        color: #2A63AB;
+        border: 1px solid #2A63AB;
+        font-size: 15px;
+        padding: 10px 20px;
+        height: 60px;
+        width: 220px;
+        }
+    }
+
+
+    .select-date{
+        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 49%;
+    margin: 30px 0 60px;
+    label{
+        text-align: center;
+    }
+        input{
+            
+    height: 48px !important;
+    padding: 10px;
+    width: 200px;            
+    color: #2A63AB;
+    border: 1px solid #2A63AB;
+        }
+    }
+}
+
+@media(max-width:786px){
+    .add-proj{
+        .select-date,.select-item{
+            width: 100%;
+        }
+    }
+}

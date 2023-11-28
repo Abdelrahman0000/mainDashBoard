@@ -1,0 +1,41 @@
+.dashcard{
+    align-items: center;
+    display: flex;
+    width: 250px;
+    background-color: #2A63Ab;
+    border-radius:8px ;
+    -webkit-border-radius:8px ;
+    -moz-border-radius:8px ;
+    -ms-border-radius:8px ;
+    -o-border-radius:8px ;
+    min-height: 100px;
+    overflow: hidden;
+    cursor: pointer;
+    .dashimage
+{
+    width: 75px;
+    min-height: 100px;
+    height: 100%;
+    display: flex;
+    border: none;
+    background-color: #fff;
+    svg{
+        margin: auto;
+        font-size: 30px;
+        color: #2A63Ab;
+    }
+}
+.inner{
+    width: 175px;
+    color: #fff;
+    padding: 0 10px;
+    h2{
+        font-size: 18px;
+    }
+    h4{
+        font-size: 14px;
+        font-weight: 400;
+        color: #ffffffd2;
+    }
+}
+}
